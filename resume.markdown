@@ -1,9 +1,15 @@
+---
+layout: page
+title: Resume
+permalink: /resume/
+---
+
 # James T. Richardson II
 
-Engineering Leader | Backend Infrastructure | Developer Platforms | Reliability & Scale  
-Colorado Springs, CO  
-[james@richardsons.us](mailto:james@richardsons.us)  
-LinkedIn: https://www.linkedin.com/in/the-real-james-richardson/  
+Engineering Leader | Backend Infrastructure | Developer Platforms | Reliability & Scale
+Colorado Springs, CO
+[james@richardsons.us](mailto:james@richardsons.us)
+LinkedIn: https://www.linkedin.com/in/the-real-james-richardson/
 GitHub: https://github.com/james-t-richardson-ii
 
 ---
@@ -16,19 +22,19 @@ Engineering leader with deep experience building and operating large-scale backe
 
 ## Technical Focus Areas
 
-- **Containers & Platforms:** Docker (build optimization, image standards, secure base images), Kubernetes, containerized CI/CD workflows  
-- **Artifact & Build Systems:** Artifactory (Docker registries, promotion workflows, retention strategies), build pipelines, caching strategies  
-- **Backend & Infrastructure:** Cloud-native systems, distributed services, infrastructure-as-code  
-- **Reliability & Observability:** SLOs/SLIs, golden signals, monitoring, incident response  
-- **Regulated & Constrained Environments:** FedRAMP, connected and air-gapped systems  
-- **Engineering Leadership:** Architecture reviews, performance tradeoffs, delivery predictability, scaling senior teams  
+- **Containers & Platforms:** Docker (build optimization, image standards, secure base images), Kubernetes, containerized CI/CD workflows
+- **Artifact & Build Systems:** Artifactory (Docker registries, promotion workflows, retention strategies), build pipelines, caching strategies
+- **Backend & Infrastructure:** Cloud-native systems, distributed services, infrastructure-as-code
+- **Reliability & Observability:** SLOs/SLIs, golden signals, monitoring, incident response
+- **Regulated & Constrained Environments:** FedRAMP, connected and air-gapped systems
+- **Engineering Leadership:** Architecture reviews, performance tradeoffs, delivery predictability, scaling senior teams
 
 ---
 
 ## Professional Experience
 
-### Senior Engineering Manager / SRE Manager  
-**Ping Identity** — Colorado Springs, CO  
+### Senior Engineering Manager / SRE Manager
+**Ping Identity** — Colorado Springs, CO
 Nov 2021 – Present
 
 Led multiple Site Reliability Engineering teams responsible for backend infrastructure, developer tooling, and reliability-critical services supporting both multi-tenant and single-tenant SaaS offerings.
@@ -40,56 +46,56 @@ Led multiple Site Reliability Engineering teams responsible for backend infrastr
 - **Led the FedRAMP implementation** for the initial single-tenant SaaS operations team, building and running developer experience tooling in both **connected and air-gapped environments**.
 - Acted as a technical sounding board for senior engineers on **architecture, performance tradeoffs, and operational risk**, while maintaining accountability for delivery outcomes.
 
-### DevOps Manager  
-**Flatirons Solutions** — Colorado, US  
+### DevOps Manager
+**Flatirons Solutions** — Colorado, US
 Sep 2020 – Nov 2021
 
 - Managed DevOps teams delivering CI/CD pipelines, cloud automation, and developer tooling.
 - Oversaw build/release pipelines, containerized deployments, and artifact management.
 - Mentored engineers on infrastructure best practices and automation strategy.
 
-### DevSecOps Technical Lead  
-**Maxar Technologies** — Westminster, CO  
+### DevSecOps Technical Lead
+**Maxar Technologies** — Westminster, CO
 Dec 2018 – Sep 2020
 
 - Implemented CI/CD tooling in AWS, leveraging infrastructure-as-code and GitOps principles.
 - Designed complex deployment paradigms alongside architecture and product teams.
 - Supported cybersecurity DFIR operations and improved enterprise security posture.
 
-### IT Delivery Manager / Product Manager  
-**Maxar Technologies** — Westminster, CO  
+### IT Delivery Manager / Product Manager
+**Maxar Technologies** — Westminster, CO
 Jan 2016 – Dec 2018
 
 - Led Scaled Agile Framework (SAFe) implementations for IT and development teams.
 - Defined product roadmaps, MVP features, and internal IT service catalogs.
 - Coordinated migrations to RedHat OpenStack and compliance-driven data systems.
 
-### Senior Systems Architect  
-**DigitalGlobe** — Longmont, CO  
+### Senior Systems Architect
+**DigitalGlobe** — Longmont, CO
 Oct 2010 – Jan 2016
 
 - Transformed image processing infrastructure to increase system throughput tenfold.
 - Enhanced distributed scheduling and batch processing workflows.
 - Served as Tier 4 Linux technical support and systems architect.
 
-### Technical Team Leader  
-**X-ISS** — Houston, TX  
+### Technical Team Leader
+**X-ISS** — Houston, TX
 Dec 2004 – Sep 2010
 
 - Directed System Analysts and Project Managers in IT operations.
 - Designed and deployed monitoring/reporting for HPC data centers (10–6,500 Linux servers).
 - Improved enterprise connectivity via Gigabit and 10GbE networks.
 
-### IT Manager  
-**Wickander & Associates, Inc.** — Spring, TX  
+### IT Manager
+**Wickander & Associates, Inc.** — Spring, TX
 Jun 2000 – Nov 2004
 
 - Managed IT operations for multiple small enterprises.
 - Installed and maintained Windows/Linux servers, VPNs, and POS systems.
 - Implemented backup strategies and remote connectivity.
 
-### Senior Programmer  
-**QuoteData, LLC** — Houston, TX  
+### Senior Programmer
+**QuoteData, LLC** — Houston, TX
 Mar 1998 – Jun 2000
 
 - Developed financial forecasting and graphing applications in MS Visual C++.
@@ -119,4 +125,3 @@ Mar 1998 – Jun 2000
 - Comfortable leading fully remote, globally distributed teams.
 - Strong written and verbal communicator; experienced presenting technical direction to senior stakeholders.
 - Particularly interested in developer tooling, backend infrastructure, and performance- and reliability-critical systems.
-
