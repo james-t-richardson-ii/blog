@@ -1,111 +1,83 @@
-# James Richardson
+# James T. Richardson II
 
-Colorado Springs, CO • [Email](mailto:james@richardsons.us?subject=Hello%20Nice%20Resume) • [720-340-6965]
-[LinkedIn: linkedin.com/in/the-real-james-richardson](https://www.linkedin.com/in/the-real-james-richardson) • GitHub: [teknofile](https://github.com/teknofile)
+Engineering Leader | Backend Infrastructure | Developer Platforms | Reliability & Scale  
+<!-- Optional: Location | Email | LinkedIn | GitHub -->
 
 ---
 
 ## Executive Summary
 
-Director-level engineering leader with 20+ years of experience in **site reliability, DevSecOps, and secure software delivery** at enterprise scale. Proven ability to build and coach **high-performing engineering and management teams**, deliver **developer-first security tooling**, and lead large-scale modernization initiatives across cloud, CI/CD, and compliance landscapes. Adept at shaping technical and product strategy, integrating **static analysis and secure coding practices** into developer workflows, and delivering measurable improvements in system reliability and security posture.
+Engineering leader with deep experience building and operating large-scale backend infrastructure and developer platforms. Proven track record leading senior engineers and managers while raising engineering maturity through strong practices in system design, testing, observability, documentation, and automation. Comfortable operating close to the stack—partnering with senior ICs on architectural and performance tradeoffs—while remaining accountable for predictable delivery, operational excellence, and long-term technical health.
 
 ---
 
-## Core Competencies
+## Technical Focus Areas
 
-- Engineering Leadership (Managers + Sr. Engineers)
-- DevSecOps, SAST, and Secure Software Development
-- Developer Productivity Tooling (SCM at scale, GitOps, CI/CD Pipelines)
-- Cloud-Native Security & Governance (AWS, GCP, Containers, Kubernetes)
-- Large-Scale Distributed Systems & High Availability
-- Incident Response, Compliance, & Audit Readiness
-- Cross-Functional Strategy (Product, Security, Research, Design)
+- **Containers & Platforms:** Docker (build optimization, image standards, secure base images), Kubernetes, containerized CI/CD workflows  
+- **Artifact & Build Systems:** Artifactory (Docker registries, promotion workflows, retention strategies), build pipelines, caching strategies  
+- **Backend & Infrastructure:** Cloud-native systems, distributed services, infrastructure-as-code  
+- **Reliability & Observability:** SLOs/SLIs, golden signals, monitoring, incident response  
+- **Engineering Leadership:** Architecture reviews, performance tradeoffs, delivery predictability, scaling senior teams  
+
+<!-- If appropriate and defensible:
+- **Languages:** Python (production), Rust/C++ (prior systems experience)
+-->
 
 ---
 
 ## Professional Experience
 
-### Ping Identity – Senior SRE Manager
+### Senior Engineering Manager / SRE Manager  
+**<!-- Company Name -->** — <!-- Location -->  
+<!-- Dates -->
 
-**Colorado Springs, Colorado, United States | Nov 2021 – Present**
+Lead a distributed team of senior engineers responsible for backend infrastructure, developer tooling, containerized platforms, and reliability-critical services supporting production systems at scale.
 
-- Lead global SRE organization responsible for **developer experience platforms**, including source code management, artifact management, and CI/CD pipeline infrastructure.
-- Build and coach **engineering managers and senior engineers** to deliver reliable, secure developer services across multiple business units.
-- Partner with security and product teams to integrate **automated security scanning, compliance, and monitoring** into pipelines.
-- **Led Ping Identity's FedRAMP technical implementation**, collaborating across development, security, compliance, legal, and audit groups to achieve certification.
-- **Reduced service degradations and incidents by 10%+** by partnering with multi-tenant and single-tenant engineering teams on reliability engineering practices.
-- **Developed a scalable cloud security and governance program**, consolidating security and governance controls across **hundreds of AWS accounts and GCP projects**, ensuring compliance and visibility at scale.
+- Own delivery and operational excellence for platforms spanning **container build and runtime workflows, artifact storage (Artifactory), CI/CD automation, observability, and infrastructure-as-code**.
+- Built and coached high-performing engineers and engineering managers, establishing clear expectations for technical excellence, ownership, and delivery.
+- Led a multi-year effort to **raise the engineering maturity baseline** of a 10-person team by institutionalizing shared engineering practices, including:
+  - **Pair programming and collaborative design** to accelerate knowledge sharing and reduce single-points-of-failure.
+    - **Rigorous code review standards** emphasizing correctness, performance, and long-term maintainability.
+      - Coaching engineers on **testing strategy** (unit, integration, system-level), focusing on *why* and *when* to test to support scale and change.
+        - Defining clear **documentation standards**, teaching teams how to tailor documentation for different audiences (engineers, operators, stakeholders).
+          - Driving thoughtful **automation strategy**, identifying high-leverage automation opportunities and explicitly calling out when automation adds unnecessary complexity.
+          - Led foundational education and design discussions around **scalability, reliability, security, and performance**, enabling engineers to make better architectural decisions independently.
+          - Established modern **observability practices**, including adoption of golden signals and service-level objectives, improving system insight and incident response.
+          - Partnered with application, platform, and security teams to embed **container standards, artifact promotion workflows, and supply-chain controls** into developer workflows without sacrificing velocity.
+          - Acted as a technical sounding board for senior engineers on **architecture, performance tradeoffs, and operational risk**, while maintaining accountability for delivery outcomes.
+          - Collaborated closely with product management and peer engineering leaders to align technical priorities with business goals.
 
----
+          <!-- Add 1–2 more roles below if needed; older roles can be shorter and more compressed -->
 
-### Flatirons Solutions – DevOps Manager
+          ---
 
-**Boulder, Colorado, United States | Sep 2020 – Nov 2021**
+          ## Selected Impact (Optional but Recommended)
 
-- Directed DevOps engineering teams to modernize CI/CD pipelines and improve developer productivity for enterprise clients.
-- **Reduced deployment times and errors by automating infrastructure-as-code and containerized build/release processes**, improving time-to-market.
-- Instituted **secure coding and operational readiness reviews** within development workflows, aligning delivery pipelines with compliance requirements.
+          - Standardized Docker image build and promotion practices across teams, improving consistency, security posture, and developer confidence.
+          - Improved reliability and operability of critical backend systems through observability adoption and shared engineering standards.
+          - Enabled teams to scale safely by embedding testing, documentation, and automation practices as default behaviors.
 
----
+          ---
 
-### Maxar Technologies (formerly DigitalGlobe) - DevSecOps Technical Leader / Delivery Manager / Systems Architect
+          ## Leadership & Engineering Philosophy
 
-**DevSecOps Technical Lead | Dec 2018 – Sep 2020**
+          - Raise the engineering baseline before scaling systems.
+          - Balance developer experience, performance, and reliability rather than optimizing for a single dimension.
+          - Hold a high technical bar through design review, mentorship, and shared ownership—not micromanagement.
+          - Invest in durable systems and teams that improve over time.
 
-- Built **CI/CD and GitOps frameworks** within AWS, integrating **static code scanning and compliance checks** into pipelines for developer-first security.
-- Designed and delivered **infrastructure-as-code platforms** enabling secure, repeatable deployments across classified and unclassified environments.
-- Supported **cybersecurity DFIR operations**, accelerating incident resolution and improving security posture for mission-critical systems.
+          ---
 
-**IT Delivery Manager / Product Manager | Jan 2016 – Dec 2018**
+          ## Education
 
-- Drove adoption of **Scaled Agile Framework (SAFe)** across IT and development teams, aligning product roadmaps with business priorities.
-- Conceptualized and launched **IT service catalogs and developer platforms** that streamlined workflows for system administrators and engineers.
-- **Migrated enterprise applications to RedHat OpenStack**, modernizing delivery infrastructure.
-- Spearheaded **audit-ready search and compliance systems**, enabling secure, traceable data management for regulated workloads.
+          <!-- Degree, Institution -->
+          <!-- Or: Equivalent professional experience -->
 
-**Senior Systems Architect | Oct 2010 – Jan 2016**
+          ---
 
-- **Increased system throughput 10x** by re-architecting image processing infrastructure, improving delivery of satellite imagery products.
-- Engineered **distributed processing workflows** and secure HPC systems for large-scale image analytics.
-- Acted as **Tier 4 HPC and Linux systems SME**, resolving mission-critical technical issues.
+          ## Additional Information
 
----
+          - Comfortable leading fully remote, globally distributed teams.
+          - Strong written and verbal communicator; experienced presenting technical direction to senior stakeholders.
+          - Interested in developer tooling, backend infrastructure, performance-critical systems, and long-term technical health.
 
-### eXcellence in IS Solutions (X-ISS) – *Technical Team Leader*
-
-**Houston, Texas | Dec 2004 – Sep 2010**
-
-- Directed technical teams supporting HPC and Linux environments with **6,500+ servers and 2PB of storage**.
-- Designed monitoring and reporting frameworks to **improve reliability and security** in large-scale computing environments.
-- Strengthened enterprise networking and data center connectivity, improving **resiliency and throughput** across distributed systems.
-
----
-
-### Wickander & Associates – *IT Manager*
-
-**Spring, Texas | Jun 2000 – Nov 2004**
-
-- Managed IT for multiple SMB clients, delivering **secure, reliable infrastructure** across Windows and Linux environments.
-- Designed VPNs, backup plans, and POS systems, ensuring business continuity and compliance.
-
----
-
-### QuoteData, LLC – *Senior Programmer*
-
-**Houston, Texas | Mar 1998 – Jun 2000**
-
-- Principal developer for financial forecasting and graphing applications using **C, C++, MS SQL, ATL/MFC class libraries**.
-- Delivered **real-time market data systems** supporting financial clients with high-availability requirements.
-
----
-
-## Certifications
-
-- **GitHub Foundations**
-- AWS Certified DevOps Engineer – Professional (Expired 2022)
-- AWS Certified Developer – Associate (Expired 2022)
-- AWS Solutions Architect – Associate (Expired 2022)
-- Certified SAFe 4 Agilist
-- Certified Scrum Product Owner
-
----
