@@ -2,7 +2,7 @@
 
 Engineering Leader | Backend Infrastructure | Developer Platforms | Reliability & Scale  
 Colorado Springs, CO  
-james@richardsons.us  
+[james@richardsons.us](mailto:james@richardsons.us)  
 LinkedIn: https://www.linkedin.com/in/the-real-james-richardson/  
 GitHub: https://github.com/james-t-richardson-ii
 
