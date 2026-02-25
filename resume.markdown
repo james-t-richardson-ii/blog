@@ -7,10 +7,10 @@ permalink: /resume/
 # James T. Richardson II
 
 Engineering Leader | Distributed Systems | Git Platforms | Enterprise Automation
+
 Colorado Springs, CO
-james@richardsons.us
-LinkedIn: https://www.linkedin.com/in/the-real-james-richardson/
-GitHub: https://github.com/james-t-richardson-ii/james-t-richardson-ii
+
+[james@richardsons.us](mailto:james@richardsons.us) · [LinkedIn](https://www.linkedin.com/in/the-real-james-richardson/) · [GitHub](https://github.com/james-t-richardson-ii)
 
 ---
 
@@ -40,7 +40,7 @@ Currently leading enterprise-wide GitHub Enterprise consolidation (20,000+ repos
 
 Hands-on development across Bash, Terraform (HCL), Docker, GitHub Actions (YAML), and GitHub APIs, building production automation systems used across enterprise engineering organizations.
 
-### GitHub Enterprise Control Plane (IssueOps)
+### GitHub Enterprise Control Plane
 
 - Architected and implemented an enterprise IssueOps control plane leveraging GitHub Issues, Actions, and APIs to automate repository lifecycle management, governance, and large-scale migrations.
 - Designed a matrix-based multi-repository migration engine with controlled concurrency (max-parallel, fail-fast orchestration).
@@ -50,7 +50,7 @@ Hands-on development across Bash, Terraform (HCL), Docker, GitHub Actions (YAML)
 - Realized $300,000+ in direct licensing and hosting cost savings through system consolidation.
 - Retired legacy Bitbucket and SVN infrastructure, reducing operational overhead and improving security posture.
 
-### Terraform PR Automation Platform (Atlantis)
+### Terraform PR Automation Platform
 
 - Architected containerized Atlantis platform for Terraform/Terragrunt PR automation.
 - Designed multi-stage Docker builds with strict version pinning via centralized configuration.
@@ -59,10 +59,10 @@ Hands-on development across Bash, Terraform (HCL), Docker, GitHub Actions (YAML)
 - Enforced CI quality gates (hadolint, shellcheck, actionlint, yamllint) via pre-commit and pipeline automation.
 - Standardized infrastructure PR workflows across teams, increasing determinism and reducing drift.
 
-### Shared Automation Framework (OpsEng Common)
+### Shared Automation Framework
 
 - Designed modular cross-shell automation library supporting Bash and Zsh with consistent APIs.
-- Implemented defensive scripting standards (`set -euo pipefail`, strict bootstrap validation).
+- Implemented defensive scripting standards.
 - Created reusable modules for logging, assertions, AWS wrappers, file operations, and structured output.
 - Eliminated redundant operational tooling and increased reliability across engineering teams.
 
@@ -72,15 +72,50 @@ Hands-on development across Bash, Terraform (HCL), Docker, GitHub Actions (YAML)
 
 ### Senior Engineering Manager
 **Ping Identity** | 2021 – Present
-Scope: 4–15 direct reports | Enterprise Identity Platform | Impact across 100+ engineers
+Scope: 4–15 direct reports | Enterprise Identity Platform | Impact across 1,000+ engineers
 
-- Lead distributed engineering teams focused on developer platforms, reliability, and SCM governance.
-- Architected and executed enterprise-wide SCM consolidation strategy into GitHub EMU.
-- Designed self-service policy management and automated migration tooling adopted across the organization.
-- Defined platform guardrails balancing autonomy, compliance, and operational stability.
-- Led root-cause investigations across networking, container orchestration, CI/CD pipelines, storage layers, and application services.
-- Implemented SRE-aligned incident response practices and observability standards.
-- Mentor engineers from junior to principal level; regularly review pull requests and architectural designs.
+Lead distributed engineering teams responsible for regulated platform architecture, SRE operations, SCM governance, and internal developer platforms supporting large-scale SaaS identity systems.
+
+#### FedRAMP Architecture & Shared Services Model
+
+- Brought in to lead engineering for initial FedRAMP offering; partnered with security, 3PAO auditors, and business leadership to architect shared-services model within FedRAMP boundary.
+- Designed scalable multi-tenant shared services architecture enabling compliant customer onboarding without duplicating core infrastructure.
+- Redefined AWS Organization strategy and governance model to support regulated workloads.
+- Built and operationalized an AWS Account Factory to provision secure, policy-compliant accounts across business units.
+- Balanced compliance, operational efficiency, and developer velocity within regulated environments.
+
+#### SRE & Reliability Leadership
+
+- Managed SRE teams supporting largest single-tenant SaaS environments.
+- Reduced customer-facing incidents by 10% through operational rigor, improved observability, and post-incident process refinement.
+- Led root-cause investigations across networking, container orchestration, storage, CI/CD, and application services layers.
+- Implemented SRE-aligned practices including SLIs/SLOs, incident standardization, and reliability guardrails.
+
+#### Post-M&A Platform Consolidation & Operationalization
+
+- Led consolidation of security analysis, reporting platforms, and developer tooling following acquisition integration.
+- Standardized operational models across inherited systems, reducing duplication and increasing consistency.
+- Operationalized internal services to improve reliability, maintainability, and supportability.
+
+#### Enterprise SCM Consolidation & GitHub Architecture
+
+- Architected and executed enterprise-wide SCM consolidation into GitHub Enterprise Managed Users (EMU).
+- Migrating 20,000+ repositories from 20+ independent GitHub, GitLab, Bitbucket, and SVN instances.
+- Designed self-service policy management and automated migration tooling.
+- Realized $300,000+ in direct licensing and hosting cost savings.
+- Retired legacy SCM systems, improving governance and security posture across 1,000+ engineers.
+
+#### Secure Software Signing Platform
+
+- Designed and implemented centralized software signing service accessible via Jenkins, GitLab, and GitHub pipelines.
+- Enabled use-case-based key selection and secure digital signing across development workflows.
+- Reduced risk associated with distributed key management and improved compliance alignment.
+
+#### Technical Leadership
+
+- Mentor engineers from junior through principal levels.
+- Regularly review pull requests and architectural designs.
+- Drive cross-functional technical discussions across engineering, security, and product leadership.
 
 ---
 
