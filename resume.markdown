@@ -1,3 +1,9 @@
+---
+layout: page
+title: Resume
+permalink: /resume/
+---
+
 # James T. Richardson II
 
 Engineering Leader | Distributed Systems | Git Platforms | Enterprise Automation
