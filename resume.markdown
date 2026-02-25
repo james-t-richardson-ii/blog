@@ -7,6 +7,7 @@ permalink: /resume/
 # James T. Richardson II
 
 **Principal Engineering Leader & Distributed Systems Architect**
+
 Git Platforms • Enterprise Automation • Cloud Infrastructure
 
 Colorado Springs, CO
@@ -71,6 +72,7 @@ Hands-on development across Bash, Terraform (HCL), Docker, GitHub Actions (YAML)
 ## Professional Experience
 
 ### Senior Engineering Manager
+
 **Ping Identity** | 2021 – Present
 Scope: 4–15 direct reports | Enterprise Identity Platform | Impact across 1,000+ engineers
 
