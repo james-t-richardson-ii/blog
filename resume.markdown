@@ -1,127 +1,109 @@
----
-layout: page
-title: Resume
-permalink: /resume/
----
-
 # James T. Richardson II
 
-Engineering Leader | Backend Infrastructure | Developer Platforms | Reliability & Scale
+Engineering Leader | Distributed Systems | Git Platforms | Enterprise Automation
 Colorado Springs, CO
-[james@richardsons.us](mailto:james@richardsons.us)
+james@richardsons.us
 LinkedIn: https://www.linkedin.com/in/the-real-james-richardson/
-GitHub: https://github.com/james-t-richardson-ii
+GitHub: https://github.com/james-t-richardson-ii/james-t-richardson-ii
 
 ---
 
-## Executive Summary
+## Principal-Level Engineering Leader & Systems Architect
 
-Engineering leader with deep experience building and operating large-scale backend infrastructure and developer platforms. Proven track record leading senior engineers and engineering managers while raising engineering maturity through strong practices in system design, testing, observability, documentation, and automation. Comfortable operating close to the stack—partnering with senior ICs on architectural and performance tradeoffs—while remaining accountable for predictable delivery, operational excellence, and long-term technical health.
+Engineering leader and hands-on platform architect with 20+ years building and operating distributed systems, SCM platforms, and enterprise automation frameworks. Experienced leading globally distributed engineering teams while remaining deeply engaged in architecture reviews, pull requests, and systems-level design decisions.
+
+Currently leading enterprise-wide GitHub Enterprise consolidation (20,000+ repositories) and designing policy-driven automation systems that improve governance, reliability, and developer productivity at scale.
 
 ---
 
-## Technical Focus Areas
+## Core Expertise
 
-- **Containers & Platforms:** Docker (build optimization, image standards, secure base images), Kubernetes, containerized CI/CD workflows
-- **Artifact & Build Systems:** Artifactory (Docker registries, promotion workflows, retention strategies), build pipelines, caching strategies
-- **Backend & Infrastructure:** Cloud-native systems, distributed services, infrastructure-as-code
-- **Reliability & Observability:** SLOs/SLIs, golden signals, monitoring, incident response
-- **Regulated & Constrained Environments:** FedRAMP, connected and air-gapped systems
-- **Engineering Leadership:** Architecture reviews, performance tradeoffs, delivery predictability, scaling senior teams
+- Distributed Systems Architecture
+- Git & SCM Governance at Enterprise Scale
+- Production Systems Troubleshooting (networking, storage, caching, load-balancing)
+- Kubernetes & Containerized Platforms
+- GitHub Enterprise, Actions, Apps & API Automation
+- Infrastructure-as-Code (Terraform / Terragrunt)
+- High-Performance & Air-Gapped Systems
+- Observability & SRE Practices
+- Organizational Technical Leadership
+
+---
+
+## Platform Architecture & Systems Engineering
+
+Hands-on development across Bash, Terraform (HCL), Docker, GitHub Actions (YAML), and GitHub APIs, building production automation systems used across enterprise engineering organizations.
+
+### GitHub Enterprise Control Plane (IssueOps)
+
+- Architected and implemented an enterprise IssueOps control plane leveraging GitHub Issues, Actions, and APIs to automate repository lifecycle management, governance, and large-scale migrations.
+- Designed a matrix-based multi-repository migration engine with controlled concurrency (max-parallel, fail-fast orchestration).
+- Automated GitHub Enterprise Importer (GEI) workflows, including LFS-aware migration handling.
+- Implemented deterministic naming and prefix governance logic with org-level custom property schemas and admin-team authorization mapping.
+- Migrating 20,000+ repositories from 20+ independent GitHub, GitLab, Bitbucket, and SVN instances into GitHub Enterprise Managed Users (EMU).
+- Realized $300,000+ in direct licensing and hosting cost savings through system consolidation.
+- Retired legacy Bitbucket and SVN infrastructure, reducing operational overhead and improving security posture.
+
+### Terraform PR Automation Platform (Atlantis)
+
+- Architected containerized Atlantis platform for Terraform/Terragrunt PR automation.
+- Designed multi-stage Docker builds with strict version pinning via centralized configuration.
+- Integrated Atlantis, Terraform, Terragrunt, Helm, and kubectl into unified runtime environment.
+- Implemented s6-overlay service supervision for production-grade reliability.
+- Enforced CI quality gates (hadolint, shellcheck, actionlint, yamllint) via pre-commit and pipeline automation.
+- Standardized infrastructure PR workflows across teams, increasing determinism and reducing drift.
+
+### Shared Automation Framework (OpsEng Common)
+
+- Designed modular cross-shell automation library supporting Bash and Zsh with consistent APIs.
+- Implemented defensive scripting standards (`set -euo pipefail`, strict bootstrap validation).
+- Created reusable modules for logging, assertions, AWS wrappers, file operations, and structured output.
+- Eliminated redundant operational tooling and increased reliability across engineering teams.
 
 ---
 
 ## Professional Experience
 
-### Senior Engineering Manager / SRE Manager
-**Ping Identity** — Colorado Springs, CO
-Nov 2021 – Present
+### Senior Engineering Manager
+**Ping Identity** | 2021 – Present
+Scope: 4–15 direct reports | Enterprise Identity Platform | Impact across 100+ engineers
 
-Led multiple Site Reliability Engineering teams responsible for backend infrastructure, developer tooling, and reliability-critical services supporting both multi-tenant and single-tenant SaaS offerings.
-
-- Owned delivery and operational excellence for platforms spanning **container build and runtime workflows, artifact storage (Artifactory), CI/CD automation, observability, and infrastructure-as-code**.
-- Led SRE teams supporting **single-tenant SaaS offerings**, balancing reliability, security, performance, and customer-specific operational requirements.
-- Built and coached high-performing engineers and **mentored junior and first-time engineering managers**, helping them develop effective leadership practices for guiding senior technical teams.
-- Led a multi-year effort to **raise the engineering maturity baseline** across a 10-person SRE team by institutionalizing shared engineering practices, including pair programming, code reviews, testing strategy, documentation standards, and automation best practices.
-- **Led the FedRAMP implementation** for the initial single-tenant SaaS operations team, building and running developer experience tooling in both **connected and air-gapped environments**.
-- Acted as a technical sounding board for senior engineers on **architecture, performance tradeoffs, and operational risk**, while maintaining accountability for delivery outcomes.
-
-### DevOps Manager
-**Flatirons Solutions** — Colorado, US
-Sep 2020 – Nov 2021
-
-- Managed DevOps teams delivering CI/CD pipelines, cloud automation, and developer tooling.
-- Oversaw build/release pipelines, containerized deployments, and artifact management.
-- Mentored engineers on infrastructure best practices and automation strategy.
-
-### DevSecOps Technical Lead
-**Maxar Technologies** — Westminster, CO
-Dec 2018 – Sep 2020
-
-- Implemented CI/CD tooling in AWS, leveraging infrastructure-as-code and GitOps principles.
-- Designed complex deployment paradigms alongside architecture and product teams.
-- Supported cybersecurity DFIR operations and improved enterprise security posture.
-
-### IT Delivery Manager / Product Manager
-**Maxar Technologies** — Westminster, CO
-Jan 2016 – Dec 2018
-
-- Led Scaled Agile Framework (SAFe) implementations for IT and development teams.
-- Defined product roadmaps, MVP features, and internal IT service catalogs.
-- Coordinated migrations to RedHat OpenStack and compliance-driven data systems.
-
-### Senior Systems Architect
-**DigitalGlobe** — Longmont, CO
-Oct 2010 – Jan 2016
-
-- Transformed image processing infrastructure to increase system throughput tenfold.
-- Enhanced distributed scheduling and batch processing workflows.
-- Served as Tier 4 Linux technical support and systems architect.
-
-### Technical Team Leader
-**X-ISS** — Houston, TX
-Dec 2004 – Sep 2010
-
-- Directed System Analysts and Project Managers in IT operations.
-- Designed and deployed monitoring/reporting for HPC data centers (10–6,500 Linux servers).
-- Improved enterprise connectivity via Gigabit and 10GbE networks.
-
-### IT Manager
-**Wickander & Associates, Inc.** — Spring, TX
-Jun 2000 – Nov 2004
-
-- Managed IT operations for multiple small enterprises.
-- Installed and maintained Windows/Linux servers, VPNs, and POS systems.
-- Implemented backup strategies and remote connectivity.
-
-### Senior Programmer
-**QuoteData, LLC** — Houston, TX
-Mar 1998 – Jun 2000
-
-- Developed financial forecasting and graphing applications in MS Visual C++.
-- Maintained SQL databases and internet server software for real-time market data.
-- Delivered regular technical reports to product management.
+- Lead distributed engineering teams focused on developer platforms, reliability, and SCM governance.
+- Architected and executed enterprise-wide SCM consolidation strategy into GitHub EMU.
+- Designed self-service policy management and automated migration tooling adopted across the organization.
+- Defined platform guardrails balancing autonomy, compliance, and operational stability.
+- Led root-cause investigations across networking, container orchestration, CI/CD pipelines, storage layers, and application services.
+- Implemented SRE-aligned incident response practices and observability standards.
+- Mentor engineers from junior to principal level; regularly review pull requests and architectural designs.
 
 ---
 
-## Selected Impact
+### Engineering Leader
+**Flatirons Solutions** | 2020 – 2021
+Scope: 35 engineers across North America, Europe, and India
 
-- Standardized Docker image build and promotion practices across teams, improving consistency, security posture, and developer confidence.
-- Successfully implemented developer tooling in **air-gapped FedRAMP environments** while maintaining reliability and delivery predictability.
-- Raised engineering maturity across SRE organizations through shared practices in testing, documentation, observability, and automation.
-- Mentored and developed new engineering managers, increasing leadership capacity and organizational resilience.
+- Led modernization of mission-critical aviation software from on-premise deployments to cloud-native SaaS offerings.
+- Directed containerization and Kubernetes adoption across legacy systems.
+- Designed cloud storage and networking architectures for high-availability SaaS environments.
+- Established GitOps-driven CI/CD pipelines.
+- Led cross-region engineering collaboration and cloud-native skill development.
 
 ---
 
-## Leadership & Engineering Philosophy
+### Engineering Leader / Principal Technical Contributor
+**Maxar Technologies (DigitalGlobe)** | 2010 – 2020
 
-- Raise the engineering baseline before scaling systems.
-- Balance developer experience, performance, security, and reliability rather than optimizing for a single dimension.
-- Hold a high technical bar through design review, mentorship, and shared ownership—not micromanagement.
-- Build systems and teams that improve over time, even under regulatory and operational constraints.
+- Designed and built HPC clusters for large-scale data processing.
+- Led enterprise AWS adoption and cloud migration strategy.
+- Developed Infrastructure-as-Code frameworks and custom CI/CD pipelines for connected and air-gapped environments.
+- Consolidated enterprise source control systems into GitHub.
+- Led SAFe agile transformation across engineering departments.
+- Troubleshot distributed systems across networking, storage, caching, and compute layers in mission-critical environments.
 
-## Additional Information
+---
 
-- Comfortable leading fully remote, globally distributed teams.
-- Strong written and verbal communicator; experienced presenting technical direction to senior stakeholders.
-- Particularly interested in developer tooling, backend infrastructure, and performance- and reliability-critical systems.
+## Certifications
+
+- GitHub Foundations Certification
+- Advanced GitHub Actions Training
+- GitHub Copilot & AI Workflow Integration Training
