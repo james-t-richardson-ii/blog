@@ -20,7 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  gem "jekyll-timeago", "~> 0.13.1"
+  gem "jekyll-timeago", "~> 1.1.0"
   gem "jekyll-remote-theme"
   gem "jekyll-redirect-from"
   gem "jekyll-paginate"
