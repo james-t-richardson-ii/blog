@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Engineering Leadership
-subtitle: Platform strategy, modern operations, and the systems that help software teams scale.
+title: Engineering Systems at Scale
+subtitle: Platform strategy, modern operations, and the leadership patterns that help software teams scale.
 ---
 
 # Engineering leadership for modern software organizations.
