@@ -9,20 +9,32 @@ I write about platform engineering, infrastructure automation, AI-native operati
 
 ## Featured Topics
 
-### [Platform Engineering]({{ "/platform-engineering/" | relative_url }})
-Infrastructure-as-code, developer platforms, automation, internal tooling, and reducing operational drag.
+<div class="topic-grid">
+  <article class="topic-card">
+    <h3><a href="{{ '/platform-engineering/' | relative_url }}">Platform Engineering</a></h3>
+    <p>Infrastructure-as-code, developer platforms, automation, internal tooling, and reducing operational drag.</p>
+  </article>
 
-### [Engineering Leadership]({{ "/leadership/" | relative_url }})
-Code reviews, release management, organizational design, and decision-making at scale.
+  <article class="topic-card">
+    <h3><a href="{{ '/leadership/' | relative_url }}">Engineering Leadership</a></h3>
+    <p>Code reviews, release management, organizational design, and decision-making at scale.</p>
+  </article>
 
-### [Reliability & Observability]({{ "/reliability/" | relative_url }})
-Monitoring, logging, incident response, compliance, and operating production systems.
+  <article class="topic-card">
+    <h3><a href="{{ '/reliability/' | relative_url }}">Reliability & Observability</a></h3>
+    <p>Monitoring, logging, incident response, compliance, and operating production systems.</p>
+  </article>
 
-### [AI & Operations]({{ "/ai-ops/" | relative_url }})
-Practical AI/ML patterns for operational engineering teams, AIOps, and AI-native workflows.
+  <article class="topic-card">
+    <h3><a href="{{ '/ai-ops/' | relative_url }}">AI & Operations</a></h3>
+    <p>Practical AI/ML patterns for operational engineering teams, AIOps, and AI-native workflows.</p>
+  </article>
 
-### [Security & Compliance]({{ "/security/" | relative_url }})
-Vault, GitHub Actions, exploit development, enumeration, supply chain controls, and regulated environments.
+  <article class="topic-card">
+    <h3><a href="{{ '/security/' | relative_url }}">Security & Compliance</a></h3>
+    <p>Vault, GitHub Actions, exploit development, enumeration, supply chain controls, and regulated environments.</p>
+  </article>
+</div>
 
 ## Start Here
 
