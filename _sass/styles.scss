@@ -26,6 +26,23 @@
   flex-shrink: 0;
 }
 
+.topic-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.topic-card {
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.topic-card h3 {
+  margin-top: 0;
+}
+
 @media (max-width: 640px) {
   .project-card {
     flex-direction: column;
