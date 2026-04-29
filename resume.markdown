@@ -6,9 +6,9 @@ permalink: /resume/
 
 # James T. Richardson II
 
-**Principal Engineering Leader & Distributed Systems Architect**
+**Engineering Leader | Platform Strategy | Infrastructure Automation | Reliability | AI Operations**
 
-Git Platforms • Enterprise Automation • Cloud Infrastructure
+I lead teams building the systems, platforms, and operating models that help software organizations scale.
 
 Colorado Springs, CO
 [james@richardsons.us](mailto:james@richardsons.us) · [LinkedIn](https://www.linkedin.com/in/the-real-james-richardson/) · [GitHub](https://github.com/james-t-richardson-ii/james-t-richardson-ii)

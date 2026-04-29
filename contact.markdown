@@ -1,22 +1,25 @@
 ---
 layout: page
-title: Contact teknofile
+title: Contact
 permalink: /contact/
 ---
 
-<!-- modify this form HTML and place wherever you want your form -->
+Interested in platform engineering, engineering leadership, DevOps, AI operations, or infrastructure automation? Send me a note.
+
 <form action="https://formspree.io/f/xgvwgkyq" method="POST">
-<table>
-  <tr>
-    <td>Your email:</td>
-    <td><input type="email" name="email"></td>
-  </tr>
-  <tr>
-    <td>Your message:</td>
-    <td><textarea name="message"></textarea></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="right"><button type="submit">Send Mail</button></td>
-  </tr>
-</table>
+  <p>
+    <label>Your email:<br />
+      <input type="email" name="email" required>
+    </label>
+  </p>
+
+  <p>
+    <label>Your message:<br />
+      <textarea name="message" required></textarea>
+    </label>
+  </p>
+
+  <p>
+    <button type="submit">Send Message</button>
+  </p>
 </form>
