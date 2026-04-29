@@ -39,5 +39,4 @@ I write about platform engineering, infrastructure automation, AI-native operati
 ## Start Here
 
 - [About]({{ "/about/" | relative_url }})
-- [Projects]({{ "/projects/" | relative_url }})
 - [Resume]({{ "/resume/" | relative_url }})
