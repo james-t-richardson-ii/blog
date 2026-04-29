@@ -1,2 +1,99 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
+
+/* ---- Hero tuning ---- */
+header.masthead {
+  margin-bottom: 3rem;
+  background-color: #20272d !important;
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading,
+header.masthead .post-heading {
+  padding: 7rem 0 5rem;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 3rem;
+  line-height: 1.12;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 992px) {
+  header.masthead .page-heading,
+  header.masthead .site-heading,
+  header.masthead .post-heading {
+    padding: 8rem 0 6rem;
+  }
+
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 3.75rem;
+  }
+}
+
+/* ---- Existing project styles ---- */
+.project-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-logo {
+  max-width: 120px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* ---- Topic cards ---- */
+.topic-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.topic-card {
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.topic-card h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 640px) {
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-logo {
+    max-width: 96px;
+  }
+}

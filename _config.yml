@@ -21,9 +21,8 @@
 title: James Richardson
 email: james@jrichardson.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site/blog is a collection of thoughts, ideas, and
-  projects that I have been working on. My interests are pretty
-  varied, so you will find a wide range of topics here.
+  Engineering leadership, platform strategy, DevOps, AI operations,
+  reliability, and the systems thinking behind modern software organizations.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jrichardson.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: realTeknofile
@@ -37,6 +36,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -61,3 +61,14 @@ plugins:
 collections:
   projects:
     output: true
+
+paginate: 7
+paginate_path: "/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: James Richardson
