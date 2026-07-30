@@ -98,6 +98,63 @@ header.masthead .site-heading .subheading {
   }
 }
 
+/* ---- Homepage writing CTA ---- */
+.writing-cta {
+  margin-top: 2rem;
+}
+
+/* ---- Writing list page ---- */
+.writing-intro {
+  color: #555;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.writing-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.writing-entry {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 2rem;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.writing-meta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #adb5bd;
+  margin-bottom: 0.35rem;
+}
+
+.writing-title {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: #0085a1;
+    }
+  }
+}
+
+.writing-excerpt {
+  color: #555;
+  line-height: 1.65;
+  margin: 0;
+}
+
 /* ---- Music / Album page ---- */
 .album-meta {
   margin-bottom: 1.25rem;
