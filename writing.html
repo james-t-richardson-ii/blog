@@ -1,0 +1,24 @@
+---
+layout: page
+title: Writing
+description: Essays on engineering leadership, platform strategy, observability, and building software organizations at scale.
+permalink: /writing/
+---
+
+<p class="writing-intro">
+  I write about the practical side of engineering leadership: platform thinking, infrastructure automation, reliability, and the organizational systems that help software teams scale.
+</p>
+
+<div class="writing-list">
+  {% for post in site.posts %}
+  <article class="writing-entry">
+    <div class="writing-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+    <h2 class="writing-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    <p class="writing-excerpt">
+      {{ post.excerpt | strip_html | truncatewords: 30 }}
+    </p>
+  </article>
+  {% endfor %}
+</div>
