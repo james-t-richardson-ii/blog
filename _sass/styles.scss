@@ -70,24 +70,6 @@ header.masthead .site-heading .subheading {
   flex-shrink: 0;
 }
 
-/* ---- Topic cards ---- */
-.topic-grid {
-  display: grid;
-  gap: 1.5rem;
-  margin-top: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-
-.topic-card {
-  padding: 1.25rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-}
-
-.topic-card h3 {
-  margin-top: 0;
-}
-
 @media (max-width: 640px) {
   .project-card {
     flex-direction: column;
@@ -96,6 +78,49 @@ header.masthead .site-heading .subheading {
   .project-logo {
     max-width: 96px;
   }
+}
+
+/* ---- Homepage sections ---- */
+.home-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 0.5rem;
+}
+
+.home-section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #e5e7eb;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: #0085a1;
+      }
+    }
+  }
+
+  p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.home-section-link {
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 /* ---- Homepage writing CTA ---- */

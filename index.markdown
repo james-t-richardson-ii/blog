@@ -1,42 +1,39 @@
 ---
 layout: page
-title: Engineering Systems at Scale
-subtitle: Platform strategy, modern operations, and the leadership patterns that help software teams scale.
+title: James Richardson
+description: Engineering leader. Platform architect. Somewhat reluctant musician. Work in progress.
 ---
 
-# Engineering leadership for modern software organizations.
+I've spent twenty years getting very good at solving hard problems inside large engineering organizations — building platforms, leading teams, consolidating systems, and being the person you call when something important is failing or needs to scale.
 
-I write about platform engineering, infrastructure automation, AI-native operations, reliability, security, and the human systems that help engineering teams scale.
+That identity has served me well.
 
-## Featured Topics
+It has also been something I've had to look at more honestly.
 
-<div class="topic-grid">
-  <article class="topic-card">
-    <h3>Platform Engineering</h3>
-    <p>Infrastructure-as-code, developer platforms, automation, internal tooling, and reducing operational drag.</p>
+I'm an engineering leader by trade and a systems thinker by instinct. I'm also someone who recently finished a personal album, who works on cars in his garage, who paints Warhammer miniatures badly, and who is somewhere in the middle of recovering parts of himself that a long career of being useful and dependable quietly set aside.
+
+This site holds both of those things.
+
+---
+
+<div class="home-sections">
+
+  <article class="home-section">
+    <h2><a href="{{ '/writing/' | relative_url }}">Writing</a></h2>
+    <p>Essays on platform engineering, infrastructure automation, observability, and building software organizations that actually work. Practical, opinionated, and written from inside the problem.</p>
+    <a class="home-section-link" href="{{ '/writing/' | relative_url }}">Read the essays &rarr;</a>
   </article>
 
-  <article class="topic-card">
-    <h3>Engineering Leadership</h3>
-    <p>Code reviews, release management, organizational design, and decision-making at scale.</p>
+  <article class="home-section">
+    <h2><a href="{{ '/music/' | relative_url }}">Music</a></h2>
+    <p><em>Identity</em> is a pre-release album about what happens when the systems that helped you survive begin to obscure the person underneath them. Six songs. Engineering as a language for something that has very little to do with engineering.</p>
+    <a class="home-section-link" href="{{ '/music/' | relative_url }}">Listen &rarr;</a>
   </article>
 
-  <article class="topic-card">
-    <h3>Reliability & Observability</h3>
-    <p>Monitoring, logging, incident response, compliance, and operating production systems.</p>
+  <article class="home-section">
+    <h2><a href="{{ '/now/' | relative_url }}">Now</a></h2>
+    <p>What I'm actually working on, reading, and thinking about at the moment. Updated occasionally and honest about it.</p>
+    <a class="home-section-link" href="{{ '/now/' | relative_url }}">See what's current &rarr;</a>
   </article>
 
-  <article class="topic-card">
-    <h3>AI & Operations</h3>
-    <p>Practical AI/ML patterns for operational engineering teams, AIOps, and AI-native workflows.</p>
-  </article>
-
-  <article class="topic-card">
-    <h3>Security & Compliance</h3>
-    <p>Vault, GitHub Actions, supply chain controls, and regulated environments.</p>
-  </article>
-</div>
-
-<div class="writing-cta">
-  <a class="btn btn-primary" href="{{ '/writing/' | relative_url }}">Read the essays &rarr;</a>
 </div>
