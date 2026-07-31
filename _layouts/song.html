@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<header class="masthead">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>{{ page.title }}</h1>
+          <span class="subheading">Track {{ page.track }} &middot; <em>Identity</em></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      <p class="song-back"><a href="{{ '/music/' | relative_url }}">&larr; Back to <em>Identity</em></a></p>
+
+      {% if page.mp3 %}
+      <audio class="track-player" controls preload="metadata">
+        <source src="{{ page.mp3 | relative_url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      {% endif %}
+
+      {% if page.arc %}
+      <p class="song-arc">{{ page.arc }}</p>
+      {% endif %}
+
+      {% if content != empty %}
+      <div class="track-notes song-notes">
+        {{ content }}
+      </div>
+      {% endif %}
+
+      <hr class="album-divider">
+
+      <h2 class="lyrics-heading">Lyrics</h2>
+      {% include lyrics.html song=page %}
+
+      <hr class="album-divider">
+
+      <nav class="song-nav">
+        {%- assign songs = site.songs | sort: 'track' -%}
+        {%- for s in songs -%}
+          {%- if s.url == page.url -%}
+            {%- assign idx = forloop.index0 -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if idx > 0 -%}
+          {%- assign previdx = idx | minus: 1 -%}
+          {%- assign prev = songs[previdx] -%}
+          <a class="song-nav-prev" href="{{ prev.url | relative_url }}">&larr; {{ prev.title }}</a>
+        {%- endif -%}
+        {%- assign last = songs.size | minus: 1 -%}
+        {%- if idx < last -%}
+          {%- assign nextidx = idx | plus: 1 -%}
+          {%- assign next = songs[nextidx] -%}
+          <a class="song-nav-next" href="{{ next.url | relative_url }}">{{ next.title }} &rarr;</a>
+        {%- endif -%}
+      </nav>
+
+    </div>
+  </div>
+</div>
