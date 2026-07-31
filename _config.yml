@@ -61,6 +61,9 @@ plugins:
 collections:
   projects:
     output: true
+  songs:
+    output: true
+    permalink: /music/:name/
 
 paginate: 7
 paginate_path: "/page:num/"
@@ -72,3 +75,8 @@ defaults:
     values:
       layout: post
       author: James Richardson
+  - scope:
+      path: ""
+      type: "songs"
+    values:
+      layout: song

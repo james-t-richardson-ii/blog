@@ -1,0 +1,12 @@
+{%- comment -%}
+Renders the structured lyrics of a song.
+Usage: {% include lyrics.html song=song %}
+{%- endcomment -%}
+<div class="lyrics">
+  {%- for part in include.song.lyrics %}
+  <section class="lyrics-section">
+    <h4 class="lyrics-label">{{ part.section }}</h4>
+    <p class="lyrics-text">{{ part.text | strip | escape }}</p>
+  </section>
+  {%- endfor %}
+</div>

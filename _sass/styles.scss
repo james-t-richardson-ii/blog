@@ -266,6 +266,16 @@ header.masthead .site-heading .subheading {
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
 }
 
 .track-player {
@@ -285,6 +295,94 @@ header.masthead .site-heading .subheading {
       margin-bottom: 0;
     }
   }
+}
+
+/* ---- Lyrics ---- */
+.track-lyrics {
+  margin-top: 1.25rem;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 0.75rem;
+
+  summary {
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6c757d;
+    outline-offset: 3px;
+
+    &:hover {
+      color: #212529;
+    }
+  }
+
+  &[open] summary {
+    margin-bottom: 1rem;
+  }
+}
+
+.track-lyrics-link {
+  font-size: 0.85rem;
+  margin: 1.25rem 0 0;
+}
+
+.lyrics-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.lyrics-section {
+  margin-bottom: 1.75rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.lyrics-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #adb5bd;
+  margin-bottom: 0.4rem;
+}
+
+.lyrics-text {
+  white-space: pre-line;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: #333;
+  margin: 0;
+}
+
+/* ---- Individual song page ---- */
+.song-back {
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.song-arc {
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+.song-notes {
+  margin-bottom: 0;
+}
+
+.song-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.song-nav-next {
+  margin-left: auto;
+  text-align: right;
 }
 
 .album-arc {

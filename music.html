@@ -5,6 +5,8 @@ description: A pre-release album about what happens when the systems that helped
 permalink: /music/
 ---
 
+{%- assign songs = site.songs | sort: 'track' -%}
+
 <div class="album-meta">
   <span class="album-tag">Pre-Release &middot; 2026</span>
 </div>
@@ -33,141 +35,32 @@ permalink: /music/
 <hr class="album-divider">
 
 <h2 class="tracklist-heading">Tracklist</h2>
-<p class="tracklist-subheading">Presented in recommended listening order.</p>
+<p class="tracklist-subheading">Presented in recommended listening order. Every track has a page of its own with full lyrics.</p>
 
 <div class="tracklist">
 
-  <div class="track" id="track-1">
+  {%- for song in songs %}
+  <div class="track" id="track-{{ forloop.index }}">
     <div class="track-header">
-      <span class="track-number">01</span>
-      <h3 class="track-title">Executive Dysfunction</h3>
+      <span class="track-number">{{ song.track }}</span>
+      <h3 class="track-title"><a href="{{ song.url | relative_url }}">{{ song.title }}</a></h3>
     </div>
     <audio class="track-player" controls preload="metadata">
-      <source src="{{ '/assets/music/executive-dysfunction.mp3' | relative_url }}" type="audio/mpeg">
+      <source src="{{ song.mp3 | relative_url }}" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
     <div class="track-notes">
-      <p>
-        I can solve complex technical problems. I can lead engineers, design systems, navigate incidents, and find failures buried several layers deep. But capability is not the same thing as ease.
-      </p>
-      <p>
-        As my career progressed, I moved farther away from the direct engineering work I loved and deeper into strategy, organizational problems, meetings, politics, and decisions made far from the systems themselves. I became responsible for the machine instead of working inside it.
-      </p>
-      <p>
-        The song is frustrated, aggressive, and intentionally conflicted. It is proud of what I built. It is angry about what the work consumed. The central tension is simple: I built the machine. Now the machine owns me.
-      </p>
+      {{ song.content }}
     </div>
+    <details class="track-lyrics">
+      <summary>Lyrics</summary>
+      {% include lyrics.html song=song %}
+      <p class="track-lyrics-link">
+        <a href="{{ song.url | relative_url }}">Open &ldquo;{{ song.title }}&rdquo; on its own page &rarr;</a>
+      </p>
+    </details>
   </div>
-
-  <div class="track" id="track-2">
-    <div class="track-header">
-      <span class="track-number">02</span>
-      <h3 class="track-title">2AM Pager</h3>
-    </div>
-    <audio class="track-player" controls preload="metadata">
-      <source src="{{ '/assets/music/2am-pager.mp3' | relative_url }}" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <div class="track-notes">
-      <p>
-        The pager represents more than an on-call rotation. It represents a state of constant readiness: the belief that rest is temporary, peace is suspicious, and another emergency is always about to arrive.
-      </p>
-      <p>
-        You begin to measure your value by how quickly you respond. You become dependable to everyone except yourself. You learn how to wake up in the middle of the night and stabilize a system, while ignoring the quieter failures happening inside your own life.
-      </p>
-      <p>
-        The pager is also emotional &mdash; the internal alarm that never fully stops. When no emergency exists, do I still know who I am?
-      </p>
-    </div>
-  </div>
-
-  <div class="track" id="track-3">
-    <div class="track-header">
-      <span class="track-number">03</span>
-      <h3 class="track-title">Shortcut</h3>
-    </div>
-    <audio class="track-player" controls preload="metadata">
-      <source src="{{ '/assets/music/shortcut.mp3' | relative_url }}" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <div class="track-notes">
-      <p>
-        In engineering, a shortcut can be clever. In life, shortcuts are more complicated.
-      </p>
-      <p>
-        Sometimes productivity becomes a shortcut around vulnerability. Humor becomes a shortcut around grief. Logic becomes a shortcut around emotion. Work becomes a shortcut around conflict. Certainty becomes a shortcut around fear.
-      </p>
-      <p>
-        There are no instant fixes for identity, relationships, grief, or emotional connection. Some problems cannot be automated. Some wounds cannot be optimized away. The long way through may be the only honest way forward.
-      </p>
-    </div>
-  </div>
-
-  <div class="track" id="track-4">
-    <div class="track-header">
-      <span class="track-number">04</span>
-      <h3 class="track-title">Rootkit</h3>
-    </div>
-    <audio class="track-player" controls preload="metadata">
-      <source src="{{ '/assets/music/rootkit.mp3' | relative_url }}" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <div class="track-notes">
-      <p>
-        A rootkit is designed to hide deep inside a system. It gains privileged access, alters what the system can trust, and becomes difficult to detect from within. That made it the right metaphor for intrusive thoughts.
-      </p>
-      <p>
-        Anxiety does not always feel like an external voice. It can feel like your own reasoning. Once it has established itself, every signal can look suspicious. Is this thought mine? Is this fear evidence? Is my mind warning me, or has the warning system itself been compromised?
-      </p>
-      <p>
-        This song uses paranoia and body-horror imagery to express the experience of not being able to fully trust your internal signals.
-      </p>
-    </div>
-  </div>
-
-  <div class="track" id="track-5">
-    <div class="track-header">
-      <span class="track-number">05</span>
-      <h3 class="track-title">Manual Override</h3>
-    </div>
-    <audio class="track-player" controls preload="metadata">
-      <source src="{{ '/assets/music/manual-override.mp3' | relative_url }}" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <div class="track-notes">
-      <p>
-        The responsibilities are still being handled. The meetings are attended. The emails are answered. The problems are solved. From the outside, every diagnostic appears normal. But internally, something has stopped responding.
-      </p>
-      <p>
-        A manual override is necessary when the existing system cannot correct itself. In this song, that becomes a plea to interrupt the pattern before it becomes permanent. Continuing exactly as before is no longer an option.
-      </p>
-      <p>
-        At its heart, this is about wanting to feel again and not knowing how to begin.
-      </p>
-    </div>
-  </div>
-
-  <div class="track" id="track-6">
-    <div class="track-header">
-      <span class="track-number">06</span>
-      <h3 class="track-title">Protocol</h3>
-    </div>
-    <audio class="track-player" controls preload="metadata">
-      <source src="{{ '/assets/music/protocol.mp3' | relative_url }}" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <div class="track-notes">
-      <p>
-        In networking, communication does not occur simply because a message was sent. The message must be received, understood, and acknowledged. Without that shared understanding, each side may believe it has communicated while the connection continues to fail. Relationships can work the same way.
-      </p>
-      <p>
-        One person may express love through actions: preparing something, remembering a need, leaving a light on. The other may express love through words, reassurance, attention, or the hope of being visibly chosen. Both people may be sincere. Both may be faithful. Both may still feel unseen.
-      </p>
-      <p>
-        This is not about the absence of love. It is about love that needs translation. We kept sending signals. Neither of us knew how to receive.
-      </p>
-    </div>
-  </div>
+  {%- endfor %}
 
 </div>
 
@@ -177,12 +70,9 @@ permalink: /music/
   <h2>The Arc</h2>
   <p class="arc-description">These six songs were designed to be heard in order. Each track strips away another layer.</p>
   <ol class="arc-list">
-    <li><strong>Executive Dysfunction</strong> &mdash; This is what I became.</li>
-    <li><strong>2AM Pager</strong> &mdash; This is what it cost.</li>
-    <li><strong>Shortcut</strong> &mdash; This is how I avoided it.</li>
-    <li><strong>Rootkit</strong> &mdash; This is what happened inside me.</li>
-    <li><strong>Manual Override</strong> &mdash; This is me asking for help.</li>
-    <li><strong>Protocol</strong> &mdash; This is me trying to reach you.</li>
+    {%- for song in songs %}
+    <li><strong><a href="{{ song.url | relative_url }}">{{ song.title }}</a></strong> &mdash; {{ song.arc }}</li>
+    {%- endfor %}
   </ol>
 </div>
 
